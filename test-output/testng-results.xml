@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8222" started-at="2022-01-09T18:07:00 IST" finished-at="2022-01-09T18:07:09 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8222" started-at="2022-01-09T18:07:00 IST" finished-at="2022-01-09T18:07:09 IST">
+      <class name="org.etsbytes.testcases.HomepageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.etsbytes.testcases.HomepageTest@3aeaafa6]" name="beforeSuite" is-config="true" duration-ms="318" started-at="2022-01-09T18:07:00 IST" finished-at="2022-01-09T18:07:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:org.etsbytes.testcases.HomepageTest@3aeaafa6]" name="setUp" is-config="true" duration-ms="4369" started-at="2022-01-09T18:07:00 IST" finished-at="2022-01-09T18:07:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.etsbytes.testcases.HomepageTest.loginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:org.etsbytes.testcases.HomepageTest@3aeaafa6]" name="loginTest" duration-ms="2813" started-at="2022-01-09T18:07:05 IST" description="To check whether the user can login to askOmDch website" data-provider="getData" finished-at="2022-01-09T18:07:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.etsbytes.testcases.HomepageTest@3aeaafa6]" name="tearDown" is-config="true" duration-ms="813" started-at="2022-01-09T18:07:08 IST" finished-at="2022-01-09T18:07:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.etsbytes.testcases.HomepageTest@3aeaafa6]" name="afterSuite" is-config="true" duration-ms="672" started-at="2022-01-09T18:07:09 IST" finished-at="2022-01-09T18:07:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.etsbytes.testcases.HomepageTest -->
+      <class name="org.etsbytes.testcases.PaymentTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:org.etsbytes.testcases.PaymentTest@eafc191]" name="setUp" is-config="true" duration-ms="4370" started-at="2022-01-09T18:07:00 IST" finished-at="2022-01-09T18:07:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.etsbytes.testcases.PaymentTest.paymentTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paymentTest(java.lang.String,java.lang.String)[pri:0, instance:org.etsbytes.testcases.PaymentTest@eafc191]" name="paymentTest" duration-ms="3015" started-at="2022-01-09T18:07:05 IST" description="To verify the payment mode is working or not" data-provider="getData" finished-at="2022-01-09T18:07:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.etsbytes.testcases.PaymentTest@eafc191]" name="tearDown" is-config="true" duration-ms="790" started-at="2022-01-09T18:07:08 IST" finished-at="2022-01-09T18:07:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.etsbytes.testcases.PaymentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
