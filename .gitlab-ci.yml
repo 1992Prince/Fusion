@@ -8,6 +8,7 @@ stages:
  # MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
 
 maven_job:
+  image: maven:3.5-jdk-8-alpine
   stage: maven_job
   script:
     - mvn clean compile -Psmoke
