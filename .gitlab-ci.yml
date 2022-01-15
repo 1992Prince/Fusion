@@ -10,7 +10,7 @@ stages:
 maven_job:
   stage: maven_job
   script:
-    -mvn clean compile -Psmoke
+    - mvn clean compile -Psmoke
    
 
 
