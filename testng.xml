@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test parallel="methods" thread-count="2" name="Test">
-    <classes>
-      <class name="org.etsbytes.testcases.HomepageTest"/>
-      <class name="org.etsbytes.testcases.PaymentTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="org.etsbytes.listeners.TestListener"></listener>
+	</listeners>
+	<test parallel="methods" thread-count="2" name="Test">
+		<classes>
+			<class name="org.etsbytes.testcases.HomepageTest" />
+			<class name="org.etsbytes.testcases.PaymentTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

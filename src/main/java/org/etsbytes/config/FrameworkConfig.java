@@ -8,4 +8,6 @@ public interface FrameworkConfig extends Config {
 	long timeout();
 	String url();
 	String browser();
+	String runmode();
+	String remoteurl();
 }

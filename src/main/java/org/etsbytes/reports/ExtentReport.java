@@ -27,5 +27,9 @@ public final class ExtentReport {
 		extenttest = extent.createTest(testcasename);
 		ExtentManager.setExtentTest(extenttest);
 	}
+	
+	public static void assignAuthor(String author) {
+		ExtentManager.getExtentTest().assignAuthor(author);
+	}
 
 }

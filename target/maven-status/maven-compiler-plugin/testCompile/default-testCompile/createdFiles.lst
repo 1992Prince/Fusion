@@ -1,0 +1,3 @@
+org\etsbytes\testcases\BaseTest.class
+org\etsbytes\testcases\HomepageTest.class
+org\etsbytes\testcases\PaymentTest.class

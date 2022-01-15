@@ -9,9 +9,10 @@ public class Driver {
 
 	public static void initDriver() {
 		String browser = ConfigFactory.getConfig().browser();
+		String runmode = ConfigFactory.getConfig().runmode();
 
 		if (DriverManager.getDriver() == null) {
-			WebDriver driver = DriverFactory.getDriver(browser);
+			WebDriver driver = DriverFactory.getDriver(runmode,browser);
 			DriverManager.setDriver(driver);
 			// here DriverManager.getDriver() returns the driver object
 			// DriverManager.getDriver().manage().window().maximize();

@@ -11,19 +11,21 @@ import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
 
+	// we don't need @BeforeSuite and @AfterSuite now, only for understanding we kept it here
+	// both annotations are not doing anything now
 	@BeforeSuite
 	public void beforeSuite() {
-		ExtentReport.initReports();
+		//ExtentReport.initReports(); // moved to TestListener
 	}
 
 	@AfterSuite
 	public void afterSuite() {
-		ExtentReport.flushReports();
+		// ExtentReport.flushReports(); // moved to TestListener
 	}
 
 	@BeforeMethod
-	public void setUp(Method method) {
-		ExtentReport.createTest(method.getName());
+	public void setUp() {                             // Method method parameter
+		//ExtentReport.createTest(method.getName()); // moved to on TestStart in TestListener
 		Driver.initDriver();
 	}
 

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.754 sec <<< FAILURE!
+loginTest(org.etsbytes.testcases.HomepageTest)  Time elapsed: 1.697 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.etsbytes.reports.ExtentLogger.pass(ExtentLogger.java:12)
+	at org.etsbytes.pages.LoginPage.setUserName(LoginPage.java:18)
+	at org.etsbytes.pages.LoginPage.loginToApp(LoginPage.java:35)
+	at org.etsbytes.pages.HomePage.login(HomePage.java:27)
+	at org.etsbytes.testcases.HomepageTest.loginTest(HomepageTest.java:18)
+
+paymentTest(org.etsbytes.testcases.PaymentTest)  Time elapsed: 2.032 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.etsbytes.reports.ExtentLogger.pass(ExtentLogger.java:12)
+	at org.etsbytes.pages.LoginPage.setUserName(LoginPage.java:18)
+	at org.etsbytes.pages.LoginPage.loginToApp(LoginPage.java:35)
+	at org.etsbytes.pages.HomePage.login(HomePage.java:27)
+	at org.etsbytes.testcases.PaymentTest.paymentTest(PaymentTest.java:18)
+
