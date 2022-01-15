@@ -11,7 +11,7 @@ maven_job:
   image: maven:3.5-jdk-8-alpine
   stage: maven_job
   script:
-    - mvn clean compile -Psmoke
+    - mvn clean compile test -Psmoke
    
 
 
